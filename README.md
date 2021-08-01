@@ -2,7 +2,7 @@
 Weather Forcasting Application that shows the 5 days weather forcast of
 4 different cities of Australia: Sydney, Brisbane, Melbourne and Snowy Mountains.
 
-![Screenshot](weather.png)
+![Screenshot](weatherScreenshot.png)
 
 
 ## How to run the application
