@@ -37,6 +37,7 @@ class App extends Component {
 
 
   getWeatherData = (cityName) => {
+    console.log(cityName)
     //let url = `https://weatherbit-v1-mashape.p.mashape.com/forecast/daily?lat=${Constants.CITIES[cityName].lat}&lon=${Constants.CITIES[cityName].lon}`;
       let url = `https://api.weatherbit.io/v2.0/forecast/daily?lat=${Constants.CITIES[cityName].lat}&lon=${Constants.CITIES[cityName].lon}&key=${Constants.API_KEY}`;
     fetch(url)

@@ -13,7 +13,7 @@ class Buttons extends React.Component {
       this.currentIndex =
       this.currentIndex === 0 ? Constants.CITIES_NAMES.length - 1 : this.currentIndex - 1;
       this.props.weatherDataHandler(
-        Constants.CITIES[this.currentIndex],
+        Constants.CITIES_NAMES[this.currentIndex],
         e)
 
        
